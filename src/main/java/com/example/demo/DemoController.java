@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@CrossOrigin(value = "*")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class DemoController {
 
     public static final String BE_SUCCESS_MESSAGE = "BE works ";
